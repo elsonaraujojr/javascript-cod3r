@@ -4,3 +4,22 @@
 * that language are treated like any other
 * variable.
 */
+
+const add = function (a, b) {
+  return a + b;
+}
+
+const subtract = function (a, b) {
+  return a - b;
+}
+
+const multiply = (x, y) => x * y;
+
+const dividir = (x, y) => x / y;
+
+
+console.log(add(10, 20));
+console.log(subtract(10, 20));
+console.log(multiply(10, 20));
+console.log(dividir(10, 20));
+
