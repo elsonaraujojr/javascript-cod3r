@@ -20,4 +20,4 @@ console.log(
         .filter(greatStudent)
         .map(getScore)
         .reduce(avg)
-);  
+);
